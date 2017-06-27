@@ -1,0 +1,45 @@
+/*------------Imagenes Slider------------*/
+.slider-img1 {
+    background: url(../img/slider/img1.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.slider-img2 {
+    background: url(../img/slider/img2.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.slider-img3 {
+    background: url(../img/slider/img3.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.slider-img4 {
+    background: url(../img/slider/img4.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+/*---------Estilos Perzonalizados---------*/
+.carousel.carousel-slider .carousel-item h2 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.carousel.carousel-slider .carousel-item p {
+    font-size: 20px;
+}
+
+/*--------------Mediaqueries--------------*/
+@media screen and (max-width: 400px) {
+    .carousel.carousel-slider .carousel-item h2 {
+        font-size: 25px;
+    }
+
+    .carousel.carousel-slider .carousel-item p {
+        font-size: 17px;
+    }
+}

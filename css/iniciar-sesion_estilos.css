@@ -1,0 +1,97 @@
+.body-iniciar-sesion {
+	background: url(../img/slider/img1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center -150px;
+}
+
+.contenedor-iniciar-sesion {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+	color: #fff;
+	background: rgba(0,0,0,0.7);
+	height: 100vh;
+}
+
+.contenedor-mensaje-login {
+	display: block;
+	text-align: center;
+	width: 100%;
+	margin-top: -150px;
+}
+
+/*------------Titulo Iniciar Sesión------------*/
+.titulo-iniciar-sesion {
+	text-align: center;
+	display: block;
+
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+/*----------Formulario Iniciar Sesion----------*/
+.formulario-iniciar-sesion {
+	/*background: rgba(0,0,0,0.65);*/
+	border-radius: 5px;
+	padding: 10px;
+	width: 35%;
+
+	/*-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.8);
+	box-shadow: 0 0 15px rgba(0,0,0,0.8);*/
+
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+/*--------------------Input--------------------*/
+.contenedor-input-iniciar-sesion {
+	width: 100%;
+}
+
+/*----------------Mediaqueries----------------*/
+@media screen and (max-width: 1126px) {
+	.body-iniciar-sesion {
+		background-position: center -100px;
+	}
+}
+
+@media screen and (max-width: 1110px) {
+	.body-iniciar-sesion {
+		background-position: center -10px;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.formulario-iniciar-sesion {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 855px) {
+	.body-iniciar-sesion {
+		background-position: center 0px;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.formulario-iniciar-sesion {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 510px) {
+	.formulario-iniciar-sesion {
+		width: 95%;
+	}
+}
+
+@media screen and (max-height: 500px) {
+	.contenedor-mensaje-login {
+		margin-top: -20px;
+	}
+}

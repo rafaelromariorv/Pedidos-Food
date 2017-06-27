@@ -1,0 +1,11 @@
+RewriteEngine On
+
+RewriteRule ^inicio-pedidos-food$ index.php 
+
+RewriteRule ^servicios-pedidos-food$ servicios.php
+
+RewriteRule ^locales-pedidos-food$ locales.php
+
+RewriteRule ^contacto-pedidos-food$ contacto.php
+
+RewriteRule ^socios-pedidos-food$ socios.php

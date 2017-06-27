@@ -1,0 +1,14 @@
+/*--------Margen Izq. del Brand Logo--------*/
+.menu .brand-logo {
+	margin-left: 10px;
+}
+
+/*-----------Hover de Los Enlaces-----------*/
+.menu ul a:hover {
+	background: rgba(255, 0, 0, 0.4);
+}
+
+/*-----------Waves de Los Enlaces-----------*/
+.waves-effect.waves-perzonalizado .waves-ripple {
+	background: rgba(255, 0, 0, 0.65);
+}
